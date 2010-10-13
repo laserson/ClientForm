@@ -1,0 +1,61 @@
+ClientForm installation instructions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Dependencies
+~~~~~~~~~~~~
+
+Python 2.0 or above is required.
+
+Use of standard library module urllib2 is recommended.
+
+
+Installation
+~~~~~~~~~~~~
+
+To install the package, run the following command:
+
+ python setup.py build
+
+then (with appropriate permissions)
+
+ python setup.py install
+
+
+Alternatively, just copy the whole ClientForm.py into a directory that's
+on your Python path (eg. unix: /usr/local/lib/python2.2/site-packages,
+Windows: C:\Python24\Lib\site-packages).
+
+
+To run the tests (none of which access the network), run the following
+command:
+
+ python test.py
+
+This runs the tests against the source files extracted from the package.
+For help on command line options:
+
+ python test.py --help
+
+
+If you're using a pre-2.1 version of Python, you'll need to get
+unittest.py (from http://pyunit.sourceforge.net) to run the Pyunit
+tests.
+
+Bugs and comments to jjl@pobox.com.
+
+
+NO WARRANTY
+
+THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+See the file COPYRIGHT.txt for copyright information.
+
+This code in this package is free software; you can redistribute it
+and/or modify it under the terms of the BSD or ZPL 2.1 licenses (see
+the file COPYING.txt).
+
+John J. Lee <jjl@pobox.com>
+March 2006

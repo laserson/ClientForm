@@ -1,0 +1,12 @@
+include MANIFEST.in
+include COPYING.txt
+include COPYRIGHT.txt
+include INSTALL.txt
+include GeneralFAQ.html
+include README.html.in
+include README.html
+include README.txt
+include ChangeLog.txt
+include *.py
+recursive-include testdata *.html
+recursive-include examples *.dat *.txt *.html *.cgi *.py

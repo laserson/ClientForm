@@ -1,0 +1,4 @@
+Copyright 2002-2005 John J. Lee <jjl@pobox.com>
+Copyright 2005 Gary Poster
+Copyright 2005 Zope Corporation
+Copyright 1998-2000 Gisle Aas.
